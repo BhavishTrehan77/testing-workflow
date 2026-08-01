@@ -3,6 +3,8 @@ const mongoose = require('mongoose');
 
 let mongod;
 
+jest.setTimeout(60000);
+
 beforeAll(async () => {
   mongod = await MongoMemoryServer.create();
   const uri = mongod.getUri();
