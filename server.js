@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const app = require("./app");
 
 async function ConnectDb() {
-  await mongoose.connect("mongodb://localhost:27017/connectionmadesuccess");
+  await mongoose.connect("mongodb://mongodb:27017/connectionmadesuccess");
   console.log("connection done");
 }
 
