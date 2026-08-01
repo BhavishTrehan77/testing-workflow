@@ -1,5 +1,4 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const router = require("./routes/user.routes");
 const { body } = require("express-validator");
 const { User } = require("./models/user.models");

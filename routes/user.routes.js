@@ -1,5 +1,5 @@
 const express=require('express')
-const { GetData, PostData, PatchData, DeleteData, signup, login, forgot, reset, refreshToken, AccToken } = require('../controllers/user.controllers')
+const { GetData, PostData, PatchData, DeleteData, signup, login, forgot, reset, AccToken } = require('../controllers/user.controllers')
 
 
 const router=express.Router()
